@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700,900');
+
+:root {
+
+  // global-colours
+  --red-default: theme('colors.red.500');
+  --orange-default: theme('colors.orange.500');
+  --yellow-default: theme('colors.amber.400');
+  --green-default: theme('colors.green.600');
+  --blue-default: theme('colors.blue.600');
+  --purple-default: theme('colors.violet.700');
+
+  // grid
+  --row-gap: 1rem;
+
+  // apex-charts
+  --apex-charts-font: 'Nunito', sans-serif;
+  --apex-charts-label-font-weight: 600;
+
+  // toggle
+  --toggle-width: 3rem;
+  --toggle-height: 1.5rem;
+}

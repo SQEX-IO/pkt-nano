@@ -1,0 +1,58 @@
+.vpn-connect-button {
+
+  --vpn-connect-button-diameter: 11rem;
+
+  margin: 2rem auto 1rem auto;
+  height: var(--vpn-connect-button-diameter);
+  width: var(--vpn-connect-button-diameter);
+  border-radius: 50%;
+  box-shadow: 0 0 0 0.5rem var(--bg-shadow-colour);
+  display: inline-block;
+  z-index: 5;
+
+  &.connected {
+    border: 0.4rem solid theme('colors.green.600');
+  }
+
+  &.connecting {
+    border: 0.4rem solid theme('colors.orange.400');
+  }
+
+  &.disconnected {
+    border: 0.4rem solid theme('colors.red.500');
+  }
+}
+
+.vpn-power-button {
+  &.turn-off {
+    background-color: theme('colors.red.500') !important;
+  }
+
+  &.turn-on {
+    background-color: theme('colors.green.600') !important;
+  }
+}
+
+.vpn-usage-outer {
+
+  --vpn-usage-height: 0.75rem;
+
+  height: var(--vpn-usage-height);
+  background-color: var(--vpn-usage-outer-bg-colour);
+  border-radius: calc(var(--vpn-usage-height) / 2);
+
+  .vpn-usage-inner {
+    height: 100%;
+    background-color: var(--vpn-usage-inner-bg-colour);
+    border-radius: calc(var(--vpn-usage-height) / 2);
+  }
+}
+
+.vpn-wallet-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding: 0.5rem;
+  border: 1px solid var(--vpn-wallet-border-colour);
+  border-radius: 0.5rem;
+}

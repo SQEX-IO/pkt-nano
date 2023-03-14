@@ -1,0 +1,32 @@
+.wallet-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.5rem;
+  text-align: center;
+}
+
+.wallet-item {
+  &>span {
+    display: block;
+
+    &:first-child {
+      color: var(--text-colour-muted);
+    }
+  }
+}
+
+.wallet-address-table {
+  thead {
+    tr {
+      border-bottom: 1px solid var(--text-colour);
+      th {
+        text-align: left;
+      }
+    }
+  }
+}
+
+.wallet-scrollable {
+  max-height: 70rem;
+  overflow-y: scroll;
+}

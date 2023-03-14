@@ -1,0 +1,57 @@
+:root[data-theme="dark"] {
+  // main
+  --bg-colour: #222222;
+  --bg-shadow-colour: #222222;
+  --text-colour: #f5f5f5;
+  --text-colour-muted: #c5c5c5;
+
+  // cards
+  --card-bg-colour: #393939;
+  --card-border-colour: #363636;
+
+  // table input fields
+  --table-input-field-bg-colour: #303030;
+  --table-input-field-shadow-colour: #262626;
+
+  // scrollbar
+  --scrollbar-thumb-colour: #4d4d4d;
+  --scrollbar-thumb-colour-hover: #393939;
+  --scrollbar-track-colour: #2c2c2c;
+
+  // pills
+  --pill-bg-colour: #595959;
+  --pill-border-colour: #4d4d4d;
+
+  // buttons
+  --button-border-colour: #4d4d4d;
+  --button-text-colour: #dfdfdf;
+  --button-bg-color: #595959;
+
+  // form inputs
+  --form-input-bg-colour: #595959;
+  --form-input-text-colour: #dfdfdf;
+  --form-input-border-colour: #4d4d4d;
+
+  // vpn usage bar
+  --vpn-usage-outer-bg-colour : #595959;
+  --vpn-usage-inner-bg-colour : #4a81d4;
+
+  // vpn wallet
+  --vpn-wallet-border-colour: #262626;
+
+  // toggle
+  --toggle-off-bg-colour: #262626;
+  --toggle-on-bg-colour: #4a81d4;
+  --toggle-border-colour: rgba(255,255,255, 0.8);
+
+  // apex-charts
+  --apex-charts-box-shadow-colour: #222222;
+  --apex-charts-grid-colour: #f9f9fd;
+  --apex-charts-text-colour: #f5f5f5;
+  --apex-charts-toolbar-icon-colour: #cccccc;
+  --apex-charts-toolbar-icon-colour-hover: #f5f5f5;
+  --apexcharts-item-background-colour: #262626;
+  --apexcharts-item-border-colour: #1e1e1e;
+  --apex-lightgrey: #ced4da;
+  --apex-offwhite: #dee2e6;
+}

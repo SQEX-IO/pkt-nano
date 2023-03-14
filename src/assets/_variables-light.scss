@@ -1,0 +1,57 @@
+:root {
+  // main
+  --bg-colour: #f0f0f0;
+  --bg-shadow-colour: #f0f0f0;
+  --text-colour: #000000;
+  --text-colour-muted: #404040;
+
+  // cards
+  --card-bg-colour: #ffffff;
+  --card-border-colour: #e9e9e9;
+
+  // table input fields
+  --table-input-field-bg-colour: #eeeeee;
+  --table-input-field-shadow-colour: #cccccc;
+
+  // scrollbar
+  --scrollbar-thumb-colour: #cccccc;
+  --scrollbar-thumb-colour-hover: #bfbfbf;
+  --scrollbar-track-colour: #ffffff;
+
+  // pills
+  --pill-bg-colour: #efefef;
+  --pill-border-colour: #dddddd;
+
+  // buttons
+  --button-border-colour: #dddddd;
+  --button-text-colour: #303030;
+  --button-bg-color: #efefef;
+
+  // form inputs
+  --form-input-bg-colour: #efefef;
+  --form-input-text-colour: #303030;
+  --form-input-border-colour: #dddddd;
+
+  // vpn usage bar
+  --vpn-usage-outer-bg-colour : #efefef;
+  --vpn-usage-inner-bg-colour : #4338ca;
+
+  // vpn wallet
+  --vpn-wallet-border-colour: #dddddd;
+
+  // toggle
+  --toggle-off-bg-colour: #262626;
+  --toggle-on-bg-colour: #4338ca;
+  --toggle-border-colour: rgba(13,13,13,.9);
+
+  // apex-charts
+  --apex-charts-box-shadow-colour: #999999;
+  --apex-charts-grid-colour: #f9f9fd;
+  --apex-charts-text-colour: #6c757d;
+  --apex-charts-toolbar-icon-colour: #808080;
+  --apex-charts-toolbar-icon-colour-hover: #000000;
+  --apexcharts-item-background-colour: #fbfbfb;
+  --apexcharts-item-border-colour: #b3b3b3;
+  --apex-lightgrey: #ced4da;
+  --apex-offwhite: #dee2e6;
+}

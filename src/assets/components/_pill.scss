@@ -1,0 +1,8 @@
+.pill {
+  display: flex;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: var(--pill-bg-colour);
+  border: 1px solid var(--pill-border-colour);
+  border-radius: 12px;
+}
