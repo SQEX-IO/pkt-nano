@@ -41,10 +41,11 @@ function WiFiSettingsWidget(){
             <span className="text-2xl">
                 Wi-Fi Settings
             </span>
-            <div className="flex gap-y-3 mt-4">
+            <div className="flex gap-y-3 mt-4 h-full">
                 <form
-                    className="form flex gap-x-4"
+                    className="form flex gap-x-4 w-full"
                     onSubmit={submitWiFiSettings}
+                    id="wifiForm"
                 >
                     <div>
                         <p className="text-sm">SSID</p>
@@ -77,14 +78,14 @@ function WiFiSettingsWidget(){
                             Mbps
                         </p>
                     </div>
-
-                    <button
-                        className="form-submit-bottom-right"
-                        type="submit"
-                    >
-                        Submit
-                    </button>
                 </form>
+
+                <button
+                    className="h-fit ml-auto mt-auto button-green px-4"
+                    form="wifiForm"
+                >
+                    Submit
+                </button>
             </div>
         </Card>
     )

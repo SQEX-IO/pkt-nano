@@ -2,8 +2,10 @@ form {
 
   select {
     padding: 0.5rem;
-    border-radius: 2px;
+    border-radius: 4px;
     border-right: 0.5rem solid transparent;
+    box-shadow: 0 0 0 1px var(--form-input-border-colour);
+    margin: 1px 0;
 
     color: var(--form-input-text-colour);
     background-color: var(--form-input-bg-colour);
@@ -11,7 +13,7 @@ form {
 
   &.form {
     input[type="text"], input[type="number"] {
-      padding: 0.25rem;
+      padding: 0.4rem;
       border-radius: 5px;
       border: 1px solid var(--form-input-border-colour);
 

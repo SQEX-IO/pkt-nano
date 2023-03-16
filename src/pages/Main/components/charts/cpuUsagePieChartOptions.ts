@@ -6,7 +6,7 @@ export const cpuUsagePieChartOptions = {
     legend: { show: false },
     dataLabels: { enabled: false },
     tooltip: { enabled: false },
-    fill: { colors: ["#4a81d4", "#222222"]},
+    fill: { colors: ["#4a81d4", "#737373"]},
     states: {
         hover: {
             filter: {

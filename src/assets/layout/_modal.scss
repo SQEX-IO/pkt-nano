@@ -1,0 +1,23 @@
+.modal {
+  background-color: var(--card-bg-colour);
+  color: var(--text-colour);
+  position: relative;
+  width: 60rem;
+  left: 50rem;
+  top: 5rem;
+  border-radius: 1rem;
+  padding: 1rem
+}
+
+.modal-overlay {
+  position: fixed;
+  background-color: #00000066;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.btn-modal-close {
+  float: right;
+}

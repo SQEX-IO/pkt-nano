@@ -30,3 +30,11 @@
   max-height: 70rem;
   overflow-y: scroll;
 }
+
+.tbody-wallet {
+  &::before {
+    content: '';
+    display: table-row;
+    height: 2px;
+  }
+}
